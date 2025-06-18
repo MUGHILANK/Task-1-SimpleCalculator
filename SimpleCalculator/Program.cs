@@ -12,7 +12,7 @@ namespace simpleCalculator
             Console.WriteLine("simple calculator");
 
             while (true) {
-                Console.WriteLine("1.For add \n2.Sub \n3.multply \n4.Div \n5.Modules \n6.Greatest or smallest \n7.Numbers are positive");
+                Console.Write("1.For add \n2.Sub \n3.multply \n4.Div \n5.Modules \n6.Greatest or smallest \n7.Numbers are positive\n\n Plz Select 1 to 7: ");
                 int switch_value = Convert.ToInt32(Console.ReadLine());
                 switch (switch_value)
                 {

@@ -34,11 +34,13 @@ namespace SimpleCalculator
 
 
         public void mul() {
-            Console.WriteLine("=========== mul =========");
+            Console.WriteLine("=========== Multiply =========");
+
             Console.Write("A: ");
-            float a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
+
             Console.Write("B: ");
-            float b = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
           
                 double c = a * b; Console.WriteLine("Answer: "+ c);
 
@@ -47,9 +49,11 @@ namespace SimpleCalculator
 
         public void div()
         {
-            Console.WriteLine("=========== DIV =========");
+            Console.WriteLine("=========== DIv =========");
+
             Console.Write("A: ");
             float a = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("B: ");
             float b = Convert.ToInt32(Console.ReadLine());
             
@@ -59,8 +63,10 @@ namespace SimpleCalculator
         public void mod()
         {
             Console.WriteLine("=========== Mod =========");
+
             Console.Write("A: ");
             int a = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("B: ");
            int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(a%b);
@@ -70,20 +76,23 @@ namespace SimpleCalculator
         public void greaterSmall()
         {
             Console.WriteLine("=========== Positive or Negative =========");
+
             Console.Write("Enter number Positive or Negative: ");
             int num = Convert.ToInt32(Console.ReadLine());
-            
+      
             Console.WriteLine(num >= 0 ? "Number is Positive" : "Number is Negative");
-
         }
 
 
         public void greaterLarge() {
             Console.WriteLine("=========== Greatest or smallest =========");
+
             Console.Write("First number: ");
             long a = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Secound Number: ");
             long b = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine(a > b ? "First Value is greater" : "Secound value is greater");
         }
 
